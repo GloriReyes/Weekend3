@@ -9,7 +9,7 @@
         font-family: "Arial Black", Gadget, sans-serif
       }
       body{
-        background-color: lightgoldenrodyellow;
+        background-color: rgb(113, 214, 184);
       }
       #main{
         display: grid;
@@ -20,18 +20,18 @@
       #heading{
         display: grid;
         place-items: center;
-        background-color: aliceblue;
+        background-color: rgb(224, 228, 231);
         border-radius: 10px;
         padding: 30px;
       }
       h1, h3{
         margin: 0;
-        text-shadow: 3px 3px 3px lightgray;
+        text-shadow: 3px 3px 3px rgb(243, 241, 241);
       }
       #chatbox{
         height: 400px;
         padding: 20px;
-        background-color: white;
+        background-color: rgb(114, 160, 110);
         border-radius: 10px;
         display: grid;
         grid-template-columns: 1fr;
@@ -52,6 +52,7 @@
         width: 100%;
         font-size: 1.5rem;
         padding: 5px;
+        background-color:rgb(38, 164, 214)
       }
       button{
         font-size: 1.5rem;
@@ -59,7 +60,7 @@
         cursor: pointer;
       }
       .sender{
-        color: blue;
+        color: rgb(236, 136, 97);
       }
       .delete{
         cursor: pointer;
@@ -87,10 +88,10 @@
           <span class="delete">❌</span>
         </div>
       </div>
-      <form><input type="text"/></form>
+      <form><input id="inputbox" type="text" placeholder="Type right here, G" /></form>
       <button>I'm feeling Lonely!</button>
     </div>
-    <script>
+    <script src="node.js">
     </script>
   </body>
 </html>
